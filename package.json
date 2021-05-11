@@ -45,6 +45,7 @@
     "maps/"
   ],
   "devDependencies": {
+    "@types/node-sass": "^4.11.1",
     "benchmark": "^2.0.0",
     "chai": "^4.2.0",
     "grunt": "^1.0.4",
