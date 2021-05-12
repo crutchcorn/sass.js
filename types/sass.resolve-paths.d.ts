@@ -1,4 +1,4 @@
 export interface SassResolvePaths {
-  getPathVariations(path: any): any;
-  findPathVariation(stat: any, path: any): any;
+  getPathVariations(path: string): string[];
+  findPathVariation(stat: (path: string) => void, path: string): string;
 }
